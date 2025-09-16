@@ -36,5 +36,3 @@ This repo provides **reusable SQL** to analyze a raw `mytable` (columns A..G) an
 ## Notes
 - `v_clean` handles `$`, commas, and suffixes **T/B/M** into numeric USD.  
 - Tested on MySQL 5.7/8.0. Replace variables trick with window functions if on 8.0.
-
-## Structure
