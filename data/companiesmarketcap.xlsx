@@ -1,0 +1,18 @@
+# Dataset: Largest Companies by Market Cap
+
+This folder stores **local copies** of the dataset (not committed by default).  
+Source: **Kaggle** – [Largest Companies by Market Cap](https://www.kaggle.com/datasets/shiivvvaam/largest-companies-by-market-cap)
+
+## How to download (Kaggle CLI)
+
+1) Install & authenticate:
+```bash
+pip install kaggle
+
+# Kaggle → Account → Create New API Token
+# Save the file kaggle.json to:
+# Windows:  C:\Users\<YOU>\.kaggle\kaggle.json
+# macOS/Linux:
+mkdir -p ~/.kaggle
+mv ~/Downloads/kaggle.json ~/.kaggle/
+chmod 600 ~/.kaggle/kaggle.json
